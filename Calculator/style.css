@@ -78,3 +78,131 @@ button{
 #equal{
     width: 210%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+    body{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(2, 1, 92);
+    }
+    .body{
+        width: 95vw;
+    }
+    .number{
+        width: 90vw;
+        gap: 8px;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 490px){
+    .body{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section2{
+        position: absolute;
+        bottom: 9%;
+    }
+    .number{
+        width: 90vw;
+        gap: 9px;
+    }
+}
+@media screen and (min-width: 490px) and (max-width: 550px){
+    .body{
+        width: 75vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 640px){
+    .body{
+        width: 60vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 720px){
+    .body{
+        width: 55vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 820px){
+    .body{
+        width: 50vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 820px) and (max-width: 900px){
+    .body{
+        width: 45vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px){
+    .body{
+        width: 40vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .body{
+        width: 38vw;
+    }
+    .number{
+        width: 95vw;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+    .body{
+        width: 35vw;
+    }
+    .number{
+        width: 95vw;
+    }
+    button{
+        width: 75px;
+        height: 55px;   
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1460px){
+    .body{
+        width: 30vw;
+    }
+    .number{
+        width: 95vw;
+    }
+    button{
+        width: 75px;
+        height: 55px;   
+    }
+}
+@media screen and (min-width: 1460px){
+    .body{
+        width: 35vw;
+        height: 70vh;
+    }
+    .number{
+        width: 95vw;
+    }
+    button{
+        width: 80px;
+        height: 60px;   
+    }
+    #equal{
+        width: 180%;
+    }
+}
